@@ -1,0 +1,24 @@
+{
+    "name": "wangningkai/simple-dicrionary",
+    "description": "一个简单快速的词库工具",
+    "type": "extension",
+    "keywords": [
+        "simple-dicrionary",
+        "extension",
+        "filter"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "WangNingkai",
+        "email": "ningkai.wang@live.com"
+    }],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "WangNingkai\\SimpleDictionary\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

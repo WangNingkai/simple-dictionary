@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
