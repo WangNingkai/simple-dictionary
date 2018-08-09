@@ -1,9 +1,9 @@
 {
-    "name": "wangningkai/simple-dicrionary",
+    "name": "wangningkai/simple-dictionary",
     "description": "一个简单快速的词库工具",
     "type": "extension",
     "keywords": [
-        "simple-dicrionary",
+        "simple-dictionary",
         "extension",
         "filter"
     ],

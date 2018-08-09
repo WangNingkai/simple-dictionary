@@ -1,7 +1,8 @@
 <?php
 namespace WangNingkai\SimpleDictionary;
 
-class CharIterator implements \Iterator {
+class CharIterator implements \Iterator
+{
     /**
      * @var string
      */
@@ -23,12 +24,12 @@ class CharIterator implements \Iterator {
      */
     private $offset = 0;
 
-    public function __construct($str) 
+    public function __construct($str)
     {
         $this->str = $str;
     }
 
-    public function current() 
+    public function current()
     {
         return $this->char;
     }
@@ -38,7 +39,7 @@ class CharIterator implements \Iterator {
         return $this->offset;
     }
 
-    public function next() 
+    public function next()
     {
         if ($this->offset >= $this->length)
         {
@@ -71,7 +72,7 @@ class CharIterator implements \Iterator {
         return true;
     }
 
-    public function rewind() 
+    public function rewind()
     {
         $this->offset = 0;
         $this->index = 0;
@@ -80,7 +81,7 @@ class CharIterator implements \Iterator {
         $this->next();
     }
 
-    public function valid() 
+    public function valid()
     {
         return ($this->char !== '');
     }

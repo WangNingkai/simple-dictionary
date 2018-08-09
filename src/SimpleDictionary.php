@@ -1,7 +1,7 @@
 <?php
 namespace WangNingkai\SimpleDictionary;
 
-class SimpleDictionary 
+class SimpleDictionary
 {
     /**
      * char for padding value
@@ -32,7 +32,7 @@ class SimpleDictionary
      */
     private $start = [];
 
-    public function __construct($file) 
+    public function __construct($file)
     {
         if (file_exists($file) && is_readable($file))
         {
@@ -52,7 +52,7 @@ class SimpleDictionary
         }
     }
 
-    public function __destruct() 
+    public function __destruct()
     {
         unset($this->start);
         if (isset($this->file) && $this->file)
@@ -68,7 +68,7 @@ class SimpleDictionary
      * @param string $str
      * @return array
      */
-    public function search($str) 
+    public function search($str)
     {
         $ret = [];
         $itr = new CharIterator($str);
@@ -139,7 +139,7 @@ class SimpleDictionary
      * @param mixed $to
      * @return string
      */
-    public function replace($str, $to) 
+    public function replace($str, $to)
     {
         $ret = '';
         $itr = new CharIterator($str);
