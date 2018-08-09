@@ -1,5 +1,4 @@
 Simple Dictionary
-
 ==================
 
 ### 一个简单快速的词库工具
@@ -21,14 +20,25 @@ Simple Dictionary
 词语<tab>值
 词语<tab>值
 词语<tab>值
+
 词语<tab>值
 词语<tab>值
 ```
 
 #### 2.使用SimpleDictionary生成词库
 
+```
+
+composer require wangningkai\simple-dictionary dev-master
+
+```
+
+
+
 ```php
 <?php
+
+require 'vendow/autoload.php'
 
 use WangNingkai\SimpleDictionary\SimpleDictionary;
 
@@ -41,6 +51,7 @@ SimpleDictionary::make("text_file_path", "output_dict_path");
 
 ```php
 <?php
+require 'vendow/autoload.php'
 
 use WangNingkai\SimpleDictionary\SimpleDictionary;
 
@@ -60,6 +71,7 @@ $result = $dict->search("some text here...");
 
 ```php
 <?php
+require 'vendow/autoload.php'
 
 use WangNingkai\SimpleDictionary\SimpleDictionary;
 
