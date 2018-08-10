@@ -1,6 +1,11 @@
 Simple Dictionary
 ==================
 
+[![Latest Stable Version](https://poser.pugx.org/wangningkai/simple-dictionary/v/stable)](https://packagist.org/packages/wangningkai/simple-dictionary)
+[![Total Downloads](https://poser.pugx.org/wangningkai/simple-dictionary/downloads)](https://packagist.org/packages/wangningkai/simple-dictionary)
+[![Latest Unstable Version](https://poser.pugx.org/wangningkai/simple-dictionary/v/unstable)](https://packagist.org/packages/wangningkai/simple-dictionary)
+[![License](https://poser.pugx.org/wangningkai/simple-dictionary/license)](https://packagist.org/packages/wangningkai/simple-dictionary)
+
 ### 一个简单快速的词库工具
 
 ### 特点：
